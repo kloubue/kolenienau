@@ -1,0 +1,75 @@
+.list_carousel {
+  padding: 0;
+  width: auto;
+  position: relative;
+  width: auto;
+}
+.list_carousel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+.list_carousel li {
+  padding: 0 10px;
+  margin: 0 0 15px;
+  display: block;
+  float: left;
+  min-width: 50px;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+/*Navigation*/
+
+.caroufredsel_prev,
+.caroufredsel_next{
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  height: 19px;
+  width: 19px;
+  margin: 0;
+  line-height: 19px;
+  text-align: center;
+  color:#fff;
+  background: url("pagination.png") no-repeat;
+  text-indent: -9999em;
+}
+
+.caroufredsel_prev{
+  left: 50%;
+  margin-left: -21px;
+  background-position: 0 0;
+}
+.caroufredsel_next{
+  right: 50%;
+  margin-right: -21px;
+  background-position: right bottom;
+}
+
+.caroufredsel_prev:hover{
+  background-position: 0 bottom;
+}
+.caroufredsel_next:hover{
+  background-position: right top;
+}
+
+.caroufredsel_prev span,
+.caroufredsel_next span{
+  display: block;
+  cursor: pointer;
+}
+
+/*Pagination*/
+
+.caroufredsel_pagination{
+  text-align: center;
+}
+
+.caroufredsel_pagination a{
+  display: inline-block;
+  padding: 0 0.5em;
+}

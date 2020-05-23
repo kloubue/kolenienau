@@ -1,0 +1,27 @@
+.gallery-flickr ul li {
+    list-style-type: none;
+    float: left;
+    background: none;
+    margin-left: 0
+}
+.gallery-flickr ul {
+    margin: 0
+}
+#right .gallery-flickr ul li a, #left .gallery-flickr ul li a, .gallery-flickr ul li a {
+    float: left;
+    margin: 0 4px 4px 0;
+    padding: 0;
+    background: none;
+    border: 0;
+}
+.gallery-flickr ul li a:hover {
+    background: #ddd
+}
+#gallery-flickr {
+    padding: 0;
+    line-height: 0;
+    margin: 0
+}
+.clearfix {
+    clear: both
+}
